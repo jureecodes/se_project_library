@@ -320,11 +320,13 @@
   list-style-type: none;
   padding: 0;
   margin: 100px 0 0;
-  /* Add styles */
+  gap: 40px;
+  display: flex;
+  justify-content: center;
 }
 
 .step {
-  /* Add styles */
+  flex-basis: 220px;
 }
 
 .step__title {
@@ -366,11 +368,23 @@
   line-height: 30px;
   font-weight: 400;
   max-width: 660px;
+  margin-left: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.about__paragraph {
+  margin: 0 0 20px;
+}
+.about__paragraph:last-child {
+  margin: 0;
 }
 
 .about__image {
   width: 703px;
-  /* add styles */
+  position: absolute;
+  top: -82.5px;
+  left: -271px;
 }
 
 .footer {
