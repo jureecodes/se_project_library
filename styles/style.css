@@ -22,7 +22,7 @@
   font-size: 66px;
   line-height: 76px;
   font-weight: 500;
-  color: #000000;
+  color: #000;
   margin: 128px 0 0;
   max-width: 601px;
 }
@@ -408,7 +408,6 @@
   color: #fff;
   padding: 60px 80px;
   font-size: 16px;
-  line-height: 26px;
 }
 
 .footer__columns {
@@ -469,5 +468,5 @@
 }
 
 .footer__copyright {
-  margin: 180px 0 0;
+  margin: 108px 0 0;
 }
